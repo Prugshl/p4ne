@@ -1,6 +1,6 @@
 
-from pysnmp.hlapi import *
-import pysnmp
+#from pysnmp.hlapi import *
+#import pysnmp
 from pysnmp.hlapi import getCmd
 
 result = getCmd(SnmpEngine(),
